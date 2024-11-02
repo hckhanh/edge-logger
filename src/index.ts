@@ -178,6 +178,7 @@ export class BaselimeLogger {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",
+						"Accept-Encoding": "gzip, br",
 						"x-api-key": this.apiKey,
 						"x-service": this.service,
 						"x-namespace": this.namespace,
